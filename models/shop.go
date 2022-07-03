@@ -9,4 +9,5 @@ type Shop struct {
 	Summary    string
 	FacebookID uint
 	Facebook   Facebook
+	Address    []Address
 }
