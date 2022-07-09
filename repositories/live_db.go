@@ -14,7 +14,7 @@ func NewLiveRepository(db *gorm.DB) LiveRespository {
 }
 
 func (r liveRepository) GetAll() ([]models.Live, error)
-func (r liveRepository) GetByID(id uint) (models.Live, error)
+func (r liveRepository) GetByID(id uint) (*models.Live, error)
 func (r liveRepository) Create(live models.Live) error
 func (r liveRepository) Update(live models.Live) error
 func (r liveRepository) Delete(id uint) error
