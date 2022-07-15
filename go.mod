@@ -5,6 +5,8 @@ go 1.18
 require (
 	github.com/gin-contrib/cors v1.3.1
 	github.com/gin-gonic/gin v1.8.1
+	github.com/gorilla/websocket v1.5.0
+	github.com/huandu/facebook/v2 v2.5.6
 	github.com/spf13/viper v1.12.0
 	gorm.io/driver/postgres v1.3.7
 	gorm.io/gorm v1.23.7
