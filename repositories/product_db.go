@@ -13,7 +13,7 @@ func NewProductRepository(db *gorm.DB) ProductRepository {
 	return &productRepository{db}
 }
 
-func (r productRepository) GetAll(shopID uint) ([]models.Product, error)
+func (r productRepository) GetAll() ([]models.Product, error)
 func (r productRepository) GetByID(id uint) (*models.Product, error)
 func (r productRepository) Create(product models.Product) error
 func (r productRepository) Update(product models.Product) error
