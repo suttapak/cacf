@@ -30,7 +30,15 @@ func (r addressRepository) GetAll(models string, modelID, ID uint) (address []mo
 	}
 	return nil, errors.New("error : model not found")
 }
-func (r addressRepository) GetByID(id uint) (models.Address, error)
-func (r addressRepository) Create(address models.Address) error
-func (r addressRepository) Update(address models.Address) error
-func (r addressRepository) Delete(id uint) error
+func (r addressRepository) GetByID(id uint) (models.Address, error) {
+	panic("It was not imprement.")
+}
+func (r addressRepository) Create(address models.Address) error {
+	panic("It was not imprement.")
+}
+func (r addressRepository) Update(address models.Address) error {
+	panic("It was not imprement.")
+}
+func (r addressRepository) Delete(id uint) error {
+	panic("It was not imprement.")
+}
