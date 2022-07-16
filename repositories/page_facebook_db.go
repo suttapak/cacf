@@ -17,6 +17,6 @@ func (r pageFacebookRepository) GetByID(uint) (*models.PageFacebook, error)
 func (r pageFacebookRepository) Get() (*models.PageFacebook, error)
 func (r pageFacebookRepository) GetAll() ([]models.PageFacebook, error)
 func (r pageFacebookRepository) Create(models.PageFacebook) error
-func (r pageFacebookRepository) CreaetOfFind(models.PageFacebook) (*models.PageFacebook, error)
+func (r pageFacebookRepository) CreaetOrFind(models.PageFacebook) (*models.PageFacebook, error)
 func (r pageFacebookRepository) Update(models.PageFacebook) error
 func (r pageFacebookRepository) Delete(id uint) error

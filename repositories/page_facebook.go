@@ -7,7 +7,7 @@ type PageFacebookRepository interface {
 	Get() (*models.PageFacebook, error)
 	GetAll() ([]models.PageFacebook, error)
 	Create(models.PageFacebook) error
-	CreaetOfFind(models.PageFacebook) (*models.PageFacebook, error)
+	CreaetOrFind(models.PageFacebook) (*models.PageFacebook, error)
 	Update(models.PageFacebook) error
 	Delete(id uint) error
 }
