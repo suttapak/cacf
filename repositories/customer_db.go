@@ -14,8 +14,18 @@ func NewCustomerRepository(db *gorm.DB) CustomerRepository {
 }
 
 //TODO : Imprement CustomerRepository interface
-func (r customerRepository) GetAll(shopID uint) (models.Customer, error)
-func (r customerRepository) GetByID(id uint) (models.Customer, error)
-func (r customerRepository) Create(customer models.Customer) error
-func (r customerRepository) Update(customer models.Customer) error
-func (r customerRepository) Delete(id uint) error
+func (r customerRepository) GetAll(shopID uint) (models.Customer, error) {
+	panic("It was not imprement.")
+}
+func (r customerRepository) GetByID(id uint) (models.Customer, error) {
+	panic("It was not imprement.")
+}
+func (r customerRepository) Create(customer models.Customer) error {
+	panic("It was not imprement.")
+}
+func (r customerRepository) Update(customer models.Customer) error {
+	panic("It was not imprement.")
+}
+func (r customerRepository) Delete(id uint) error {
+	panic("It was not imprement.")
+}
