@@ -7,4 +7,6 @@ type PageFacebook struct {
 	AccessToken string `json:"access_token"`
 	Name        string `json:"name"`
 	Picture     string `json:"picture"`
+	ShopID      uint
+	Shop        Shop
 }
