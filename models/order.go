@@ -7,7 +7,7 @@ type Order struct {
 	CustomerID uint
 	Customer   Customer
 	Status     bool
-	Products   []Product
+	Products   []*Product `gorm:"many2many:order_products;"`
 	Discount   float64
 	Total      float64
 }
