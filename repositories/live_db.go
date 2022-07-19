@@ -14,8 +14,18 @@ func NewLiveRepository(db *gorm.DB) LiveRespository {
 }
 
 //TODO : Imprement LiveRepository interface
-func (r liveRepository) GetAll() ([]models.Live, error)
-func (r liveRepository) GetByID(id uint) (*models.Live, error)
-func (r liveRepository) Create(live models.Live) error
-func (r liveRepository) Update(live models.Live) error
-func (r liveRepository) Delete(id uint) error
+func (r liveRepository) GetAll() ([]models.Live, error) {
+	panic("It was not imprement.")
+}
+func (r liveRepository) GetByID(id uint) (*models.Live, error) {
+	panic("It was not imprement.")
+}
+func (r liveRepository) Create(live models.Live) error {
+	panic("It was not imprement.")
+}
+func (r liveRepository) Update(live models.Live) error {
+	panic("It was not imprement.")
+}
+func (r liveRepository) Delete(id uint) error {
+	panic("It was not imprement.")
+}
