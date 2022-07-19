@@ -6,5 +6,5 @@ type Role struct {
 	gorm.Model
 	Name   string
 	Code   string
-	Admins []Admin
+	Admins []*Admin `gorm:"many2many:admin_roles;"`
 }

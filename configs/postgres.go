@@ -2,6 +2,7 @@ package configs
 
 import (
 	"github.com/spf13/viper"
+	"github.com/suttapak/cacf/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -15,5 +16,22 @@ func CreatePostgres(config *viper.Viper) *gorm.DB {
 	if err != nil {
 		panic(err)
 	}
+	db.AutoMigrate(
+		&models.Shop{},
+		&models.Address{},
+		&models.Admin{},
+		&models.Product{},
+		&models.Role{},
+		&models.Bill{},
+		&models.Cart{},
+		&models.Customer{},
+		&models.Facebook{},
+		&models.ImageProduct{},
+		&models.Live{},
+		&models.Message{},
+		&models.Order{},
+		&models.PageFacebook{},
+		&models.PaymentAccount{},
+	)
 	return db
 }

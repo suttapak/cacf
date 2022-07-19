@@ -12,5 +12,5 @@ type Address struct {
 	CustomerID  uint
 	Customer    Customer
 	ShopID      uint
-	SHop        Shop
+	Shop        Shop
 }

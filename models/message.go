@@ -7,5 +7,5 @@ type Message struct {
 	Message    string
 	Permission string
 	ShopID     uint
-	SHop       Shop
+	Shop       Shop
 }
