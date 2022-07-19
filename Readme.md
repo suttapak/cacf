@@ -10,7 +10,7 @@
 
 The Comment auto confirm Order is a mini project of SA's class.
 
-The project's has few project members are [Mr. Matee Suttapak](https://github.com/suttapak)
+The project's has a few project members are [Mr. Matee Suttapak](https://github.com/suttapak)
 [Mr. Oachariya Surasay](https://github.com/tensai2)
 [Mr. Thawatchay](https://github.com/thawatchay40170)
 
