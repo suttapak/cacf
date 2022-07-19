@@ -18,7 +18,7 @@ The project's has few project members are [Mr. Matee Suttapak](https://github.co
 
 ### Install & Usage.
 
-##### **Requirements**
+##### **Pre Requirements**
 
 - [GO](https://go.dev/)
 - [Docker](https://www.docker.com/)
@@ -35,7 +35,7 @@ go run main.go
 
 ```
 
-### Another Side
+### See more Client side
 
 Our have some repository's Client side in another repository. You can visite a [Client](https://github.com/suttapak/cacf-client) for more.
 
