@@ -168,7 +168,7 @@ func (s *hubServices) addCart() {
 				s.boardCase <- libs.BoardCase{Code: 400, Msg: err.Error()}
 				return
 			}
-			newProduct := append(cart.Products, product)
+			newProduct := append(cart.Products, &product)
 			//Add product to cart.
 			if err := s.cartRepo.Update(models.Cart{Model: gorm.Model{ID: cart.ID}, Products: newProduct}); err != nil {
 				//TODO : handler error.
