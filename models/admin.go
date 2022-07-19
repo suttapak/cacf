@@ -9,5 +9,5 @@ type Admin struct {
 	Name     string
 	ShopID   uint
 	Shop     Shop
-	Roles    []Role
+	Roles    []*Role `gorm:"many2many:admin_roles;"`
 }
