@@ -17,7 +17,7 @@ func NewShopRepository(shopRepo repositories.ShopRespository) ShopService {
 	return &shopService{shopRepo}
 }
 
-func (s shopService) GetShop(shopID uint) (*dto.ShopReply, error) {
+func (s shopService) GetShop() (*dto.ShopReply, error) {
 	shop, err := s.shopRepo.Get()
 	if err != nil {
 		logs.Error(err)
